@@ -91,12 +91,21 @@
   text-align: center;
 }
 
-.temperature-meausre {
+.temperature-measure {
   font-size: 25px;
   font-weight: 400;
-  vertical-align: text-top;;
+  vertical-align: text-top;
   position: relative;
 }
+
+#fahrenheit, #celsius {
+text-decoration: none;
+}
+
+.active {
+  color: black;
+}
+
 .temperature-icon {
   position: relative;
   top: -430px;
