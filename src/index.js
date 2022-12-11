@@ -71,6 +71,11 @@ function getCurrentForecast(response) {
 
   let weatherDetails = document.querySelector(".weather-details");
   weatherDetails.innerHTML = response.data.weather[0].main;
+
+  let weatherIcon = document.querySelector(".temperature-icon");
+  weatherIcon.setAttribute(
+    'src',
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
 }
 
 function handlePosition(position) {
