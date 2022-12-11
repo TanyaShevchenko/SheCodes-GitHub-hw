@@ -91,6 +91,12 @@
   text-align: center;
 }
 
+.temperature-meausre {
+  font-size: 25px;
+  font-weight: 400;
+  vertical-align: text-top;;
+  position: relative;
+}
 .temperature-icon {
   position: relative;
   top: -430px;
